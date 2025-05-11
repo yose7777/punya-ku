@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portofolio Saya</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="three-style.css" />
+  
+  <!-- Tambahkan link ke library Lottie -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js"></script>
+  
+  <style>
+    /* CSS untuk penataan tentang saya */
+    #about {
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+
+    #lottie-container {
+      width: 200px; /* Ukuran animasi lebih kecil */
+      height: 200px;
+    }
+
+    .about-text {
+      flex: 1;
+      max-width:600px;
+    }
+
+    @media (max-width: 768px) {
+      #about {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      #lottie-container {
+        width: 100px; /* Ukuran animasi lebih kecil pada layar kecil */
+        height: 100px;
+      }
+    }
+
+    /* Penataan agar animasi berada di kanan teks */
+    #about .about-text {
+      order: 1; /* Menempatkan teks di posisi pertama */
+    }
+
+    #about #lottie-container {
+      order: 2; /* Menempatkan animasi di posisi kedua */
+    }
+
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="overlay">
+      <div class="container hero-content">
+        <div class="profile-img">
+          <img src="MRC04232(1).jpg" alt="Foto Profil" />
+        </div>
+        <div class="profile-description">
+          <h1>Yose Pratama</h1>
+          <p>Mobile Developer | Web Developer | UI/UX Designer | Freelancer</p>
+          <p>Seorang pelajar SMK Leonardo Klaten yang fokus di bidang IT, khususnya dalam pengembangan web dan aplikasi menggunakan HTML, CSS, JavaScript, serta Dart (Flutter). </p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="about">
+    <!-- Tempatkan animasi Lottie di samping kanan teks -->
+    <div id="lottie-container"></div>
+
+    <!-- Teks tentang saya -->
+    <div class="about-text">
+      <h2>Tentang Saya</h2>
+      <p>
+       Saya adalah seorang pelajar SMK Leonardo Klaten yang aktif dan berprestasi dalam bidang inovasi teknologi. Saya telah meraih Juara 1 dalam Lomba Krenova Pelajar Kabupaten Klaten serta menerima Innovation Award 2024 dalam ajang Klaten Innovation Awards yang diselenggarakan oleh Bapperida Kabupaten Klaten.
+
+Fokus saya berada di dunia IT dan pemrograman, khususnya dalam pengembangan aplikasi menggunakan Dart (Flutter), HTML, dan bahasa pemrograman lainnya. Saya tertarik menggabungkan inovasi teknologi dengan solusi nyata yang berdampak bagi masyarakat. Prestasi ini menjadi motivasi besar bagi saya untuk terus belajar, berkembang, dan menciptakan karya-karya yang bermanfaat.
+      </p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Prestasi Saya</h2>
+    <div class="project-card">
+      <img src="foto2.jpg" alt="Project 1" />
+      <h3>JUARA I LOMBA KRENOVA 2024 KLATEN</h3>
+      <p>Luar biasa!
+Tim kami berhasil meraih Juara 1 dalam Lomba Krenova Pelajar Tingkat Kabupaten Klaten dan membawa pulang hadiah sebesar Rp 3.750.000.
+Penghargaan ini menjadi bukti nyata bahwa semangat inovasi dan kerja keras kami membuahkan hasil!</p>
+    </div>
+    <div class="project-card">
+      <img src="foto3.jpg" alt="Project 2" />
+      <h3>INNOVATION AWARD 2024</h3>
+      <p>Bangga!
+Tim kami menerima Innovation Award 2024 dalam ajang Klaten Innovation Awards yang diselenggarakan oleh Bapperida Kabupaten Klaten.
+Penghargaan ini menjadi bukti semangat kami dalam berinovasi dan terus berkembang ke arah yang lebih baik!</p>+*- </div>
+      <div class="project-card">
+      <img src="foto4.jpg" alt="Project 2" />
+      <h3>JUARA HARAPAN 1 LOMBA KRENOVA SE-SUBOSUKOWONOSRATEN</h3>
+      <p>Kami meraih Juara Harapan 1 dalam Lomba Krenova Pelajar Se-Subosukawonosraten yang diselenggarakan oleh Bapperida Kabupaten Sragen.
+Karya inovatif kami berhasil meraih penghargaan dan hadiah sebesar Rp 2.000.000. Terima kasih atas dukungan semua pihak. Prestasi ini jadi semangat kami untuk terus berinovasi!</p>
+    </div>
+     <div class="project-card">
+      <img src="foto5.jpg" alt="Project 2" />
+      <h3>JUARA HARAPAN 1 DAN JUARA VAFORIT AJANG PADUAN SUARA REMAJA DI JOGJA</h3>
+      <p>Pada tanggal 3 Mei 2025 di GKJ Sambonobaru, aku bersama tim berhasil meraih Juara Harapan dan Juara Favorit dalam Lomba Paduan Suara Gerejawi #1 dengan tema "Here I Am to Worship". Dengan mengenakan kostum adat yang khas dan semangat kebersamaan, kami tampil membawakan pujian terbaik untuk memuliakan nama Tuhan.</p>
+    </div>
+  </section>
+<section id="contact">
+  <h2>Kontak & Media Sosial</h2>
+  <div class="social-links">
+    <a href="https://www.instagram.com/szayoss/" target="_blank">
+      <img src="Instagram_icon-icons.com_66804.png" alt="LinkedIn" />
+      Instagram
+    </a>
+    <a href="https://github.com/yose7777" target="_blank">
+      <img src="github_original_wordmark_logo_icon_146506.png" alt="GitHub" />
+      GitHub
+    </a>
+
+    <a href="mailto:email@example.com">
+      <img src="4202011emailgmaillogomailsocialsocialmedia-115677_115624.png" alt="yosepratama70@gmail.com" />
+      Email
+   <a href="https://wa.me/6281346751628" target="_blank">
+  <img src="whatsapp.png" alt="Whatsapp" />
+  Whatsapp
+</a>
+
+  </div>
+</section>
+
+
+
+  <footer>
+    <p>&copy; 2025 Yose Pratama. All rights reserved.</p>
+  </footer>
+
+  <!-- Inisialisasi animasi Lottie -->
+  <script>
+    lottie.loadAnimation({
+      container: document.getElementById('lottie-container'),
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      path: 'logo.json' // Ganti dengan path animasi Lottie kamu
+    });
+  </script>
+</body>
+</html>
